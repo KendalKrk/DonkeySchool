@@ -1,0 +1,71 @@
+.arrondie{
+
+    border-radius: 3px;
+   
+}
+
+
+.arrondie {
+    width: 20%;
+    height: 100%;
+    opacity: 1; 
+    transition: opacity 0.4s ease; 
+}
+
+.arrondie:hover {
+    opacity: 0.7; 
+}
+
+#Projects1 img.arrondie {
+    filter: grayscale(100%);
+}
+
+/* Styles pour le menu horizontal */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Afficher les éléments de la liste horizontalement */
+    background-color: #333; /* Ajoutez la couleur de fond souhaitée */
+    position: sticky;
+    justify-content: space-between;
+   
+    top: 0; /* Collez le menu en haut de la page */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacement entre les éléments du menu */
+    position: relative;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333; /* Couleur de fond du sous-menu */
+}
+
+/* Afficher le sous-menu au survol */
+nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column; /* Afficher le sous-menu en colonnes */
+}
+
+/* Styles pour les liens du menu */
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* Style pour les liens du sous-menu */
+nav ul ul a {
+    padding: 10px;
+}
+
+/* Style pour le lien actif */
+nav a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
