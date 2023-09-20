@@ -4,47 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="it's my PorteFolio">
+    <link rel="stylesheet" href="style-pro.css">
     <title>PorteFolio</title>
 </head>
 <body>
     <header>
-         <p> Hello je m'apelle Kendal</p> <br> <p> Je suis ingénieur en Intelligence Artificielle</p>
+         <p> Hello je suis Kendal</p> <br> <p> Je suis ingénieur en Intelligence Artificielle</p>
          <button>Page suivante</button>
 
     </header>
     
 </body>
 <main>
-  <nav>
-    <ul>
-        <li><a href="title">Projects</a></li>
-        <li><a href="title">Études</a></li>
-        <li><a href="title">Articles</a></li>
-        <li><a href="title">Contact</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul> 
+        <li>
+            <a href="#projects" title="">Projects</a>
+         
+        <ul>
+            <li><a href="#projects1">1er Projet</a></li>
+            <li><a href="projects2">2eme Projet</a></li>
+            <li><a href="#projects3">3eme Projet</a></li>
+          </ul>
+        </li>  
+
+       <li> <a href="#etude" title="">Études</a></li>
+
+       <li>
+          <a href="#articles" title="">Articles</a>
+          <ul>
+            <li><a href="#article1">1er Artcile</a></li>
+            <li> <a href="#article2">2eme Artcile</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#contact">Contact</a></li>
+
+        
+    </ul> 
+    </nav>
   
-     <Section>
-        <H2>Projects</H2>
-    <div>
+     <Section id="projects">
+        
+        
+        <H2>Projects</H2> 
+        
+        <div id="Projects1">
         <h3>1er Projet</h3>
-        <img src="placeholder" alt="nom du Projet">
+        <img class="arrondie"  src="https://picsum.photos/200/300" alt="nom du Projet">
         <p>Description</p> <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur sint commodi ipsum omnis, vero, deserunt fugit eius numquam fugiat nemo laborum labore quos molestias veritatis aut illo, facilis cum!</p>
         <a href="lien vers le 1er projet"><button>En savoir plus</button></a>
-    </div>
+      </div>
      
-            <div>
+            <div id="projects2">
                  <h3>2eme Projet</h3>
-                <img src="placeholder" alt="nom du projet">
+                <img class="arrondie"  src="https://picsum.photos/200/300" alt="nom du projet">
                 <p>Description</p><br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eos, beatae repellat officiis nulla tenetur ipsa voluptates neque amet ea, hic veniam quam illum, dolores dolor esse? Reprehenderit, sunt suscipit.</p>
                 <a href="lien vers le éeme projet"><button>En savoir plus</button></a>
             </div>
 
-            <div>
+            <div id="projects3">
                 <h3>3eme Projet</h3>
-                <img src="placeholder" alt="nom du projet">
+                <img class="arrondie"  src="https://picsum.photos/200/300" alt="nom du projet">
                 <p>Description</p><br>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui voluptates omnis saepe, est ipsam ab soluta, sunt placeat velit neque illo? Laborum odio blanditiis corporis quibusdam a nam fugit dolorum.</p>
                 <a href="lien vers le 3eme projet"><button>En savoir plus</button></a>
@@ -52,11 +75,11 @@
             </div>
     </Section>
 
-<Section>
+<Section id="etude">
     <H2>Études</H2>
 
         <div>
-            <img src="placeholder" alt="">
+            <img class="arrondie"  src="https://picsum.photos/200/300" alt="">
             <p> Kendal Korkmaz</p> <br> <p>25 ans</p> <br> <p>kendal3@hotmail.fr</p> <br> <p>0645771159</p>
         </div>
 
@@ -67,19 +90,21 @@
             <p>20xx-20xx : lorem</p>
         </div>
  </Section>
-               <Section>
+               <Section id="articles">
                 <h2>Articles</h2>
 
-                <div>
-                    <img src="placeholder" alt="nom de l'article">
+                <div id="article1">
+                    <img class="arrondie"  src="https://picsum.photos/200/300" alt="nom de l'article">
+                    <h3>1er Article</h3>
                     <p>Description</p><br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quos eligendi harum! Repellendus similique delectus, consectetur, sit sint excepturi voluptas quam est pariatur harum adipisci culpa, ad accusamus possimus recusandae!</p>
                     <a href="lien vers l'article"><button>voir plus</button></a>
                 </div>
                    
 
-                     <div>
-                        <img src="placeholder" alt="nom de l'article">
+                     <div id="article2">
+                        <img class="arrondie" src="https://picsum.photos/200/300" alt="nom de l'article">
+                        <h3>2eme Article</h3>
                         <p>Description</p><br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident assumenda molestias accusantium, voluptate, ratione velit delectus veniam exercitationem cupiditate dolore obcaecati aliquam laboriosam similique repudiandae a autem porro laudantium quas.</p>
                         <a href="lien vers l'article"><button>voir plus</button></a>
@@ -88,7 +113,7 @@
                     </Section>
 
 
-    <Section>
+    <Section id="contact">
         <h2>Contact</h2>
          <form action="">
            <div>
@@ -115,7 +140,7 @@
          </form>
           
 
-         <H3>BONJOUR</H3>
+        
 
         
 
