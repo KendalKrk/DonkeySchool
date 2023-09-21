@@ -1,15 +1,26 @@
-.arrondie{
 
-    border-radius: 3px;
-   
+body {
+    background-color: #ffffff; 
 }
 
 
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #333333; 
+        color: #ffffff;
+    }
+
+}
+
+
+
 .arrondie {
+
+    border-radius: 3px;
     width: 20%;
     height: 100%;
     opacity: 1; 
-    transition: opacity 0.4s ease; 
+    transition: opacity 0.3s ease; 
 }
 
 .arrondie:hover {
@@ -20,21 +31,21 @@
     filter: grayscale(100%);
 }
 
-/* Styles pour le menu horizontal */
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Afficher les éléments de la liste horizontalement */
-    background-color: #333; /* Ajoutez la couleur de fond souhaitée */
+    display: flex; 
+    background-color: #333; 
     position: sticky;
     justify-content: space-between;
    
-    top: 0; /* Collez le menu en haut de la page */
+    top: 0; 
 }
 
 nav ul li {
-    margin-right: 20px; /* Espacement entre les éléments du menu */
+    margin-right: 20px; 
     position: relative;
 }
 
@@ -43,29 +54,28 @@ nav ul ul {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #333; /* Couleur de fond du sous-menu */
+    background-color: #333; 
 }
 
-/* Afficher le sous-menu au survol */
+
 nav ul li:hover > ul {
     display: flex;
-    flex-direction: column; /* Afficher le sous-menu en colonnes */
+    flex-direction: column;
 }
 
-/* Styles pour les liens du menu */
 nav a {
     text-decoration: none;
     color: white;
     padding: 10px;
 }
 
-/* Style pour les liens du sous-menu */
+
 nav ul ul a {
     padding: 10px;
 }
 
-/* Style pour le lien actif */
+
 nav a:hover {
-    background-color: #555; /* Couleur de fond au survol */
+    background-color: #555; 
 }
 
